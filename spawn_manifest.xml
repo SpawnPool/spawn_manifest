@@ -7,8 +7,6 @@
   <remote name="cm"
            fetch="git://github.com/CyanogenMod/" />
 		   
- <project path="build" name="platform_build" remote="sp" revision="kk-4.4" >
-    <copyfile src="core/root.mk" dest="Makefile" />
   <project path="art" name="platform_art" remote="sp" revision="kk-4.4" />
   <project path="bionic" name="platform_bionic" groups="pdk" remote="sp" revision="kk-4.4" />
   <project path="dalvik" name="platform_dalvik" remote="sp" revision="kk-4.4" />
