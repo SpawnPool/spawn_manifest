@@ -72,4 +72,5 @@
   <project path="system/vold" name="platform_system_vold" groups="pdk" remote="sp" revision="kk-4.4" />
   <project path="system/qcom" name="android_system_qcom" groups="pdk" remote="cm" revision="cm-11.0" />
   <project path="vendor/aosp" name="platform_vendor_aosp" remote="sp" revision="kk-4.4" />
+  <project path=".repo/local_manifests" name="aosp_manifest" remote="sp" revision="master" />
   </manifest>
