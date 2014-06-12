@@ -43,7 +43,6 @@
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" groups="broadcom_wlan" remote="cm" revision="cm-11.0" />
   <project path="hardware/libhardware" name="platform_hardware_libhardware" groups="pdk" remote="sp" revision="kk-4.4" />
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" groups="pdk"  remote="sp" revision="kk-4.4" />
-  <project path="hardware/samsung" name="android_hardware_samsung" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/audio" name="platform_hardware_qcom_audio" groups="qcom" remote="sp" revision="kk-4.4" />
   <project path="hardware/qcom/audio-caf" name="platform_hardware_qcom_audio-caf" groups="qcom" remote="sp" revision="kk-4.4" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" remote="cm" revision="cm-11.0" />
