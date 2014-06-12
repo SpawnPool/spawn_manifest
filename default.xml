@@ -6,10 +6,6 @@
 		   
   <remote name="cm"
            fetch="git://github.com/CyanogenMod/" />
-           
-  <default revision="refs/tags/kk-4.4"
-           remote="sp"
-           sync-j="4" />
 		   
  <project path="build" name="platform_build" remote="sp" revision="kk-4.4" >
     <copyfile src="core/root.mk" dest="Makefile" />
