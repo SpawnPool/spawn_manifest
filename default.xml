@@ -30,7 +30,6 @@
   <project path="external/libselinux" name="android_external_libselinux" remote="cm" revision="cm-11.0"  groups="pdk" />
   <project path="external/libvpx" name="android_external_libvpx" groups="pdk" remote="cm" revision="cm-11.0"  />
   <project path="external/sepolicy" name="platform_external_sepolicy" remote="sp" revision="kk-4.4" groups="pdk" />
-  <project path="external/skia" name="platform_external_skia" remote="sp" revision="kk-4.4" />
   <project path="external/stagefright-plugins" name="platform_external_stagefright-plugins" remote="sp" revision="kk-4.4" />
   <project path="external/yaffs2" name="android_external_yaffs2" remote="cm" revision="cm-11.0" />
   <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="sp" revision="kk-4.4" />
