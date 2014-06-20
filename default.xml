@@ -8,7 +8,7 @@
            fetch="git://github.com/CyanogenMod/" />
            
   <remote name="aosp"
-           fetch="https://android.googlesource.com/" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />           
+           fetch="https://android.googlesource.com/" remote="aosp" revision="refs/tags/android-4.4.4_r1" />           
 		   
  <project path="build" name="platform_build" remote="sp" revision="kk-4.4" >
     <copyfile src="core/root.mk" dest="Makefile" />
