@@ -13,6 +13,7 @@
             
   <default revision="refs/heads/kk-4.4"
            remote="sp"
+           sync-c="true"
            sync-j="12" />
 		   
  <project path="build" name="platform_build" remote="sp" revision="kk-4.4" >
