@@ -10,15 +10,11 @@
   <remote name="aosp"
            fetch="https://android.googlesource.com/" remote="aosp" revision="refs/tags/android-4.4.4_r1" />  
            
-            
   <default revision="refs/heads/kk-4.4"
            remote="sp"
            sync-c="true"
            sync-j="12" />
-		   
- <project path="build" name="platform_build" remote="sp" revision="kk-4.4" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
+
 		   
   <project path="art" name="platform_art" remote="sp" revision="kk-4.4" />
   <project path="bionic" name="platform_bionic" groups="pdk" remote="sp" revision="kk-4.4" />
