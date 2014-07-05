@@ -19,7 +19,7 @@
            sync-c="true"
            sync-j="12" />
 
-		   
+  <project path="jet" name="jet" remote="sp" revision="kk-4.4" />
   <project path="art" name="platform_art" remote="sp" revision="kk-4.4" />
   <project path="bionic" name="platform_bionic" groups="pdk" remote="sp" revision="kk-4.4" />
   <project path="dalvik" name="platform_dalvik" remote="sp" revision="kk-4.4" />
