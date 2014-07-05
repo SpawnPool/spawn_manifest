@@ -2,10 +2,10 @@
 <manifest>
 
   <remote name="sp"
-           fetch="git://github.com/SpawnPool/" />
+           fetch="https://github.com/SpawnPool/" />
 		   
   <remote name="cm"
-           fetch="git://github.com/CyanogenMod/"
+           fetch="https://github.com/CyanogenMod/"
            sync-c="true"
            sync-j="12" />
            
