@@ -3,11 +3,12 @@
 
   <remote name="sp"
            fetch="https://github.com/SpawnPool/" />
-          
+
   <default revision="refs/heads/kk-4.4"
            remote="sp"
            sync-c="true"
            sync-j="12" />
+
 
   <project path="jet" name="jet" remote="sp" revision="kk-4.4" />
   <project path="vendor/common" name="platform_vendor_common" remote="sp" revision="kk-4.4" />
@@ -16,25 +17,44 @@
   <project path="dalvik" name="platform_dalvik" remote="sp" revision="kk-4.4" />
   <project path="external/bluetooth/bluedroid" name="platform_external_bluetooth_bluedroid" groups="pdk" remote="sp" revision="kk-4.4" />
   <project path="external/busybox" name="platform_external_busybox" remote="sp" revision="kk-4.4" />
+  <project path="external/chromium_org" name="android_external_chromium_org" remote="cm" revision="cm-11.0" />
   <project path="external/clang" name="platform_external_clang" groups="pdk" remote="sp" revision="kk-4.4" />
   <project path="external/e2fsprogs" name="platform_external_e2fsprogs" groups="pdk" remote="sp" revision="kk-4.4" />
+  <project path="external/exfat" name="android_external_exfat" remote="cm" revision="cm-11.0" />
   <project path="external/ffmpeg" name="platform_external_ffmpeg" remote="sp" revision="kk-4.4" />
   <project path="external/fsck_msdos" name="platform_external_fsck_msdos" remote="sp" revision="kk-4.4" />
+  <project path="external/fuse" name="android_external_fuse" remote="cm" revision="cm-11.0" />
   <project path="external/f2fs-tools" name="platform_external_f2fs-tools" remote="sp" revision="kk-4.4" />
   <project path="external/icu4c" name="platform_external_icu4c" groups="pdk" remote="sp" revision="kk-4.4" />
+  <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="cm" revision="cm-11.0" />
+  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" groups="pdk" remote="cm" revision="cm-11.0" />
+  <project path="external/libselinux" name="android_external_libselinux" remote="cm" revision="cm-11.0"  groups="pdk" />
+  <project path="external/libvpx" name="android_external_libvpx" groups="pdk" remote="cm" revision="cm-11.0"  />
   <project path="external/s4utils" name="android_external_s4utils" remote="sp" revision="kk-4.4" />
   <project path="external/sepolicy" name="platform_external_sepolicy" remote="sp" revision="kk-4.4" groups="pdk" />
   <project path="external/stagefright-plugins" name="platform_external_stagefright-plugins" remote="sp" revision="kk-4.4" />
+  <project path="external/yaffs2" name="android_external_yaffs2" remote="cm" revision="cm-11.0" />
   <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="sp" revision="kk-4.4" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" groups="pdk" remote="sp" revision="kk-4.4" />
+  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" remote="cm" revision="cm-11.0" />
+  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" groups="broadcom_wlan" remote="cm" revision="cm-11.0" />
   <project path="hardware/libhardware" name="platform_hardware_libhardware" groups="pdk" remote="sp" revision="kk-4.4" />
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" groups="pdk"  remote="sp" revision="kk-4.4" />
   <project path="hardware/qcom/audio" name="platform_hardware_qcom_audio" groups="qcom" remote="sp" revision="kk-4.4" />
   <project path="hardware/qcom/audio-caf" name="platform_hardware_qcom_audio-caf" groups="qcom" remote="sp" revision="kk-4.4" />
+  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" remote="cm" revision="cm-11.0" />
+  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" groups="qcom" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/display" name="platform_hardware_qcom_display" groups="qcom" remote="sp" revision="kk-4.4" />
   <project path="hardware/qcom/display-caf" name="platform_hardware_qcom_display-caf" groups="qcom" remote="sp" revision="kk-4.4" />
+  <project path="hardware/qcom/display-caf-new" name="android_hardware_qcom_display-caf-new" groups="qcom" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/media" name="platform_hardware_qcom_media" groups="qcom" remote="sp" revision="kk-4.4" />
   <project path="hardware/qcom/media-caf" name="platform_hardware_qcom_media-caf" groups="qcom" remote="sp" revision="kk-4.4" />
+  <project path="hardware/qcom/media-caf-new" name="android_hardware_qcom_media-caf-new" groups="qcom" remote="cm" revision="cm-11.0" />
+  <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="cm" revision="cm-11.0" />
+  <project path="hardware/qcom/sensors" name="android_hardware_qcom_sensors" remote="cm" revision="cm-11.0" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="cm" revision="cm-11.0" />
+  <project path="hardware/cm" name="android_hardware_cm" remote="cm" revision="cm-11.0" />
+  <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="sp" revision="kk-4.4" />
   <project path="packages/apps/Browser" name="platform_packages_apps_Browser" remote="sp" revision="kk-4.4" />
   <project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" remote="sp" revision="kk-4.4" />
@@ -49,6 +69,10 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.8" groups="pdk, linux, arm" remote="sp" revision="kk-4.4" />
   <project path="system/core" name="platform_system_core" groups="pdk" remote="sp" revision="kk-4.4" />
   <project path="system/extras" name="platform_system_extras" groups="pdk" remote="sp" revision="kk-4.4" />
+  <project path="system/media" name="android_system_media" groups="pdk" remote="cm" revision="cm-11.0" />
+  <project path="system/netd" name="android_system_netd" groups="pdk" remote="cm" revision="cm-11.0" />
+  <project path="system/security" name="android_system_security" groups="pdk" remote="cm" revision="cm-11.0" /> 
   <project path="system/vold" name="platform_system_vold" groups="pdk" remote="sp" revision="kk-4.4" />
+  <project path="system/qcom" name="android_system_qcom" groups="pdk" remote="cm" revision="cm-11.0" />
 
   </manifest>
