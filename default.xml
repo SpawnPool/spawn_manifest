@@ -18,6 +18,11 @@
            remote="sp"
            sync-c="true"
            sync-j="12" />
+           
+           
+  <project path="build" name="platform_build" remote="sp" revision="kk-4.4" >
+    <copyfile src="core/root.mk" dest="Makefile" />	
+  </project>         
 
   <project path="jet" name="jet" remote="sp" revision="kk-4.4" />
   <project path="vendor/common" name="platform_vendor_common" remote="sp" revision="kk-4.4" />
