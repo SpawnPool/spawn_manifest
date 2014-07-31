@@ -1,25 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
+  <!-- These are "Common" repos to AOSP -->
+  <!-- Remote Defines -->
   <remote name="sp"
            fetch="https://github.com/SpawnPool/" />
 		   
-  <remote name="cm"
-           fetch="https://github.com/CyanogenMod/"
-           sync-c="true"
-           sync-j="12" />
-           
   <remote name="aosp"
            fetch="https://android.googlesource.com/" remote="aosp" revision="refs/tags/android-4.4.4_r1"
            sync-c="true"
            sync-j="12" />
           
-  <default revision="refs/heads/kk-4.4"
-           remote="sp"
-           sync-c="true"
-           sync-j="12" />
-           
-           
   <project path="build" name="platform_build" remote="sp" revision="kk-4.4" >
     <copyfile src="core/root.mk" dest="Makefile" />	
   </project>         
