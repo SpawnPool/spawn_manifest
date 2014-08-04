@@ -24,8 +24,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />	
   </project>         
 
-  <project path="jet" name="jet" remote="sp" revision="kk-4.4" />
-  <project path="jag" name="jag" remote="sp" revision="master" />
+  <project path="jet" name="jet" remote="sp" revision="octos" />
   <project path="vendor/common" name="platform_vendor_common" remote="sp" revision="kk-4.4" />
   <project path="art" name="platform_art" remote="sp" revision="kk-4.4" />
   <project path="bionic" name="platform_bionic" groups="pdk" remote="sp" revision="kk-4.4" />
