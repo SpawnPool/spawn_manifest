@@ -25,7 +25,7 @@
   </project>         
 
   <project path="jet" name="jet" remote="sp" revision="octos" />
-  <project path="vendor/common" name="platform_vendor_common" remote="sp" revision="kk-4.4" />
+  <project path="vendor/common" name="platform_vendor_common" remote="sp" revision="octos" />
   <project path="art" name="platform_art" remote="sp" revision="kk-4.4" />
   <project path="bionic" name="platform_bionic" groups="pdk" remote="sp" revision="kk-4.4" />
   <project path="dalvik" name="platform_dalvik" remote="sp" revision="kk-4.4" />
