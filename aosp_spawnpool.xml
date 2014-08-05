@@ -60,7 +60,6 @@
   <project path="hardware/qcom/display" name="platform_hardware_qcom_display" groups="qcom" remote="sp" revision="kk-4.4" />
   <project path="hardware/qcom/display-caf" name="platform_hardware_qcom_display-caf" groups="qcom" remote="sp" revision="kk-4.4" />
   <project path="hardware/qcom/display-caf-new" name="android_hardware_qcom_display-caf-new" groups="qcom" remote="cm" revision="cm-11.0" />
-  <project path="hardware/qcom/media" name="platform_hardware_qcom_media" groups="qcom" remote="sp" revision="kk-4.4" />
   <project path="hardware/qcom/media-caf" name="platform_hardware_qcom_media-caf" groups="qcom" remote="sp" revision="kk-4.4" />
   <project path="hardware/qcom/media-caf-new" name="android_hardware_qcom_media-caf-new" groups="qcom" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="cm" revision="cm-11.0" />
